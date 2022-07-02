@@ -11,6 +11,39 @@ header {
   text-align: center;
 }
 
+/* Goals Section */
+
+#goals {
+}
+
+
+#goals-description > h2 {
+  padding: 1rem 1rem 1rem 5rem;
+  color: white;
+  background-color: rgb(71, 147, 36);
+  border-radius: 5px;
+}
+
+/* #goals-descsription:focus,
+#goals-descsription:hover {
+  cursor: pointer;
+  color: rgb(206, 150, 37);
+} */
+
+#goals-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Blog Section */
+
+#blog > h2 {
+  padding: 1rem 1rem 1rem 5rem;
+  color: white;
+  background-color: rgb(84, 95, 215);
+  border-radius: 5px;
+}
+
 .blog-entry {
   border: 2px solid black;
   border-radius: 5px;
@@ -25,3 +58,4 @@ header {
 .blog-date {
   font-weight: bold;
 }
+
